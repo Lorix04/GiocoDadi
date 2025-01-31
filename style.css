@@ -1,0 +1,121 @@
+/* Reset dei margini e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Impostazioni generali della pagina */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+/* Stile per il titolo */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    /* Distanza maggiore per separare il titolo dal resto */
+}
+
+/* Contenitore che include le due sezioni */
+.contenitore-sezioni {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* Distanza tra le sezioni */
+}
+
+/* Sezione del gioco (dado utente e dado PC) */
+.sezione {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    /* Impostato per avere la stessa larghezza */
+    height: 250px;
+    /* Impostato per avere la stessa altezza */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bdu {
+    margin-bottom: 10px;
+}
+
+#bdb {
+    margin-bottom: 48px;
+}
+
+/* Stile del bottone */
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #dcdcdc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Immagine dei dadi */
+img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    transition: opacity 1s ease;
+}
+
+#imgPC {
+    opacity: 0;
+}
+
+/* Stile per il vincitore */
+#vincitore {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* Aggiunta di uno sfondo leggero per il corpo */
+body {
+    background-color: #ecf0f1;
+}
+
+/* Animazione per l'immagine del dado rotante */
+@keyframes rotateDice {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

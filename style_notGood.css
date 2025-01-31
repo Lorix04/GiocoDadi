@@ -1,0 +1,107 @@
+/* Reset di alcuni stili di base per una maggiore coerenza tra browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  b {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Stile per la sezione */
+  .sezione {
+    display: inline-block;
+    width: 15vw; /* Larghezza fissa */
+    height: 25vh; /* Altezza fissa */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra il contenuto */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  button:hover:enabled {
+    background-color: #2980b9;
+  }
+  
+  /* Immagini dei dadi */
+  img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  #imgUser {
+    opacity: 1;
+  }
+  
+  #imgPC {
+    opacity: 0;
+  }
+  
+  /* Stile per il vincitore */
+  #vincitore {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 30px;
+  }
+  
+  /* Media query per dispositivi mobili */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .sezione {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
