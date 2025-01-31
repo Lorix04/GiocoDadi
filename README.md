@@ -12,4 +12,5 @@ Ogni giocatore tira un dado e chi ottiene il valore più alto vince la partita.
    - Se i dadi sono uguali, è un pareggio!
 
 **Tecnologie Usate:** HTML/JS/CSS
+
 **Link Sito:** [Clicca qui](http://www.lorenzocerantonio5bi.altervista.org/dadi/index.html)
