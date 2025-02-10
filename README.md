@@ -11,6 +11,8 @@ Ogni giocatore tira un dado e chi ottiene il valore più alto vince la partita.
    - Se il dado del bot è più alto, il bot vince!
    - Se i dadi sono uguali, è un pareggio!
 
-**Tecnologie Usate:** HTML/JS/CSS
+**Tecnologie Usate:** 
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)]()
 
 **Link Sito:** [Clicca qui](http://www.lorenzocerantonio5bi.altervista.org/dadi/index.html)
